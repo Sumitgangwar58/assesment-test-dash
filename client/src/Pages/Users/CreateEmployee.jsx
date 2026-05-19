@@ -111,7 +111,7 @@ const CreateUser = ({ open, setOpen, scroll }) => {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogTitle className="flex items-center justify-between">
-          <div className="text-sky-400 font-primary">Add New Employee</div>
+          <div className="text-sky-400 font-primary"> New Employee</div>
           <div className="cursor-pointer" onClick={handleClose}>
             <PiXLight className="text-[25px]" />
           </div>
@@ -158,8 +158,8 @@ const CreateUser = ({ open, setOpen, scroll }) => {
                     fullWidth
                     value={employeeData.username}
                     onChange={(e) => handleChange("username", e.target.value)}
-                    error={!!errors.password}
-                    helperText={errors.password}
+                    error={!!errors.username}
+                    helperText={errors.username}
                   />
                 </td>
               </tr>

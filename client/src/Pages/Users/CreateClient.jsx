@@ -81,7 +81,7 @@ const CreateClientModal = ({ open, setOpen, scroll, mode, defaultValues }) => {
       dispatch(
         updateUser(defaultValues._id, employeeData, defaultValues?.role),
       );
-    } else dispatch(createClient(employeeData));
+    } else dispatch(createClient(employeeData, setOpen));
     setEmployeeData(initialEmployeeState);
     setErrors({});
     setOpen(false);
@@ -116,7 +116,9 @@ const CreateClientModal = ({ open, setOpen, scroll, mode, defaultValues }) => {
         aria-describedby="alert-dialog-slide-description"
       >
         <DialogTitle className="flex items-center justify-between">
-          <div className="text-sky-400 font-primary">Add New Client</div>
+          <div className="text-sky-400 font-primary">
+            {mode === "edit" ? "Edit" : "Add"} New Client
+          </div>
           <div className="cursor-pointer" onClick={handleClose}>
             <PiXLight className="text-[25px]" />
           </div>
