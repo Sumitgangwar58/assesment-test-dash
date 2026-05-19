@@ -15,7 +15,7 @@
 <img width="976" height="751" alt="image" src="https://github.com/user-attachments/assets/8edcd42c-0961-4518-b879-fcf9b11b6dbf" />
 
 
-https://www.loom.com/share/77202a9289d34636b306457503b321b6
+https://www.loom.com/share/f02bc777d91c41a9b4b13f02a23adf5f
 
 ## Required:
  Node.js 18+
