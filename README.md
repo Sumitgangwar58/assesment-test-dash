@@ -1,9 +1,21 @@
 # Test
 
 1. Display time zone on top bar.
+<img width="1919" height="99" alt="image" src="https://github.com/user-attachments/assets/3a667d49-988e-4513-ae54-56b19dafe26c" />
+
 2. When create new Employee, display form validation message(under each field) instead of alert if some fields are empty
+<img width="942" height="926" alt="image" src="https://github.com/user-attachments/assets/8f59beda-4da0-48b3-a00f-ee4b9b79c8b9" />
+
 3. Add client button and modal.
+<img width="545" height="144" alt="image" src="https://github.com/user-attachments/assets/9dc056d5-8436-41bf-b749-ab03aac87a92" />
+<img width="1045" height="832" alt="image" src="https://github.com/user-attachments/assets/07efcab1-490c-46cf-b151-4fac165cee4f" />
+
+
 4. Add client edit feature.
+<img width="976" height="751" alt="image" src="https://github.com/user-attachments/assets/8edcd42c-0961-4518-b879-fcf9b11b6dbf" />
+
+
+https://www.loom.com/share/77202a9289d34636b306457503b321b6
 
 ## Required:
  Node.js 18+
